@@ -31,6 +31,8 @@
 		039947B7237812E100A16D0B /* ViewNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039947B6237812E100A16D0B /* ViewNavigator.swift */; };
 		039947BB237817D300A16D0B /* NavigatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039947BA237817D300A16D0B /* NavigatorController.swift */; };
 		039947BD237839B900A16D0B /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039947BC237839B900A16D0B /* OTPViewController.swift */; };
+		039947BF23787BE300A16D0B /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039947BE23787BE300A16D0B /* SuperViewController.swift */; };
+		039947C1237883A000A16D0B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039947C0237883A000A16D0B /* ForgotPasswordViewController.swift */; };
 		03F99E5B237339AF0018E37B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F99E5A237339AF0018E37B /* AppDelegate.swift */; };
 		03F99E62237339AF0018E37B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F99E60237339AF0018E37B /* Main.storyboard */; };
 		03F99E64237339B00018E37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F99E63237339B00018E37B /* Assets.xcassets */; };
@@ -81,6 +83,8 @@
 		039947B6237812E100A16D0B /* ViewNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNavigator.swift; sourceTree = "<group>"; };
 		039947BA237817D300A16D0B /* NavigatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorController.swift; sourceTree = "<group>"; };
 		039947BC237839B900A16D0B /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		039947BE23787BE300A16D0B /* SuperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
+		039947C0237883A000A16D0B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		03F99E57237339AF0018E37B /* MoyohakPartner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyohakPartner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F99E5A237339AF0018E37B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03F99E61237339AF0018E37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -188,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				0399474D2377F37900A16D0B /* LoginViewController.swift */,
+				039947C0237883A000A16D0B /* ForgotPasswordViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				039947B023780EA700A16D0B /* Extensions.swift */,
 				039947B6237812E100A16D0B /* ViewNavigator.swift */,
 				039947BA237817D300A16D0B /* NavigatorController.swift */,
+				039947BE23787BE300A16D0B /* SuperViewController.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -461,6 +467,8 @@
 				039947B5237811D200A16D0B /* RegistrationViewModel.swift in Sources */,
 				039947AF23780C4100A16D0B /* RegistrationViewController.swift in Sources */,
 				039947B7237812E100A16D0B /* ViewNavigator.swift in Sources */,
+				039947C1237883A000A16D0B /* ForgotPasswordViewController.swift in Sources */,
+				039947BF23787BE300A16D0B /* SuperViewController.swift in Sources */,
 				039947B3237811AB00A16D0B /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

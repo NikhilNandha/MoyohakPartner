@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OTPViewController: UIViewController, UITextFieldDelegate {
+class OTPViewController: SuperViewController, UITextFieldDelegate {
 
     @IBOutlet var textfield1: UITextField!
     @IBOutlet var textfield2: UITextField!
@@ -65,7 +65,7 @@ class OTPViewController: UIViewController, UITextFieldDelegate {
     
     
     // MARK: - Textfield Methods -
-
+    
         
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         

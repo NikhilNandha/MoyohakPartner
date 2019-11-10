@@ -26,4 +26,6 @@ struct NavigatorController {
     let OTP : OTPViewController = Storyboard().main.instantiateViewController(identifier: "OTPViewController")
     let OTPNC : UINavigationController = Storyboard().main.instantiateViewController(identifier: "OTPViewController_NC")
     
+    let ForgotPassword : ForgotPasswordViewController = Storyboard().main.instantiateViewController(identifier: "ForgotPasswordViewController")
+    let ForgotPasswordNC : UINavigationController = Storyboard().main.instantiateViewController(identifier: "ForgotPasswordViewController_NC")
 }
