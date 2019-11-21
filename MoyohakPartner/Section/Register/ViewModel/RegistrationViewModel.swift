@@ -25,4 +25,11 @@ class RegistrationViewModel {
                                navigationType: .Push)
     }
     
+    public static func showVendorRegistrationScreen(navigationType: NavigationType, parentViewController: UIViewController) {
+        
+        ViewNavigator.shared.navigate(viewController: navigationType == .Push ? NavigatorController().VendorDetails: NavigatorController().VendorDetailsNC,
+                               parentViewController: parentViewController,
+                               navigationType: .Push)
+    }
+    
 }

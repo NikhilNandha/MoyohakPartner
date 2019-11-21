@@ -28,4 +28,12 @@ struct NavigatorController {
     
     let ForgotPassword = Storyboard().main.instantiateViewController(withIdentifier: "ForgotPasswordViewController") as! ForgotPasswordViewController
     let ForgotPasswordNC = Storyboard().main.instantiateViewController(withIdentifier: "ForgotPasswordViewController_NC") as! UINavigationController
+    
+    
+    let VendorDetails = Storyboard().main.instantiateViewController(withIdentifier: "VendorDetailsViewController") as! VendorDetailsViewController
+    let VendorDetailsNC = Storyboard().main.instantiateViewController(withIdentifier: "VendorDetailsViewController_NC") as! UINavigationController
+    
+    let VendorShopDetails = Storyboard().main.instantiateViewController(withIdentifier: "VendorShopDetailsViewController") as! VendorShopDetailsViewController
+    let VendorContactDetails = Storyboard().main.instantiateViewController(withIdentifier: "VendorContactDetailsViewController") as! VendorContactDetailsViewController
+    let VendorSocialMediaDetails = Storyboard().main.instantiateViewController(withIdentifier: "VendorSocialMediaDetailsViewController") as! VendorSocialMediaDetailsViewController
 }

@@ -35,6 +35,9 @@
 		039947BD237839B900A16D0B /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039947BC237839B900A16D0B /* OTPViewController.swift */; };
 		039947BF23787BE300A16D0B /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039947BE23787BE300A16D0B /* SuperViewController.swift */; };
 		039947C1237883A000A16D0B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039947C0237883A000A16D0B /* ForgotPasswordViewController.swift */; };
+		03ACB9B62386EF580000497E /* VendorShopDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ACB9B52386EF580000497E /* VendorShopDetailsViewController.swift */; };
+		03ACB9B82386EF770000497E /* VendorContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ACB9B72386EF770000497E /* VendorContactDetailsViewController.swift */; };
+		03ACB9BA2386EFCD0000497E /* VendorSocialMediaDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ACB9B92386EFCD0000497E /* VendorSocialMediaDetailsViewController.swift */; };
 		03F99E5B237339AF0018E37B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F99E5A237339AF0018E37B /* AppDelegate.swift */; };
 		03F99E62237339AF0018E37B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F99E60237339AF0018E37B /* Main.storyboard */; };
 		03F99E64237339B00018E37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F99E63237339B00018E37B /* Assets.xcassets */; };
@@ -89,6 +92,9 @@
 		039947BC237839B900A16D0B /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		039947BE23787BE300A16D0B /* SuperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
 		039947C0237883A000A16D0B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		03ACB9B52386EF580000497E /* VendorShopDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorShopDetailsViewController.swift; sourceTree = "<group>"; };
+		03ACB9B72386EF770000497E /* VendorContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorContactDetailsViewController.swift; sourceTree = "<group>"; };
+		03ACB9B92386EFCD0000497E /* VendorSocialMediaDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorSocialMediaDetailsViewController.swift; sourceTree = "<group>"; };
 		03F99E57237339AF0018E37B /* MoyohakPartner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyohakPartner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F99E5A237339AF0018E37B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03F99E61237339AF0018E37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -262,6 +268,9 @@
 				039947AE23780C4100A16D0B /* RegistrationViewController.swift */,
 				039947BC237839B900A16D0B /* OTPViewController.swift */,
 				038A217523866504003FBE76 /* VendorDetailsViewController.swift */,
+				03ACB9B52386EF580000497E /* VendorShopDetailsViewController.swift */,
+				03ACB9B72386EF770000497E /* VendorContactDetailsViewController.swift */,
+				03ACB9B92386EFCD0000497E /* VendorSocialMediaDetailsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -466,8 +475,10 @@
 				039947462377E9D800A16D0B /* CustomTextfield.swift in Sources */,
 				039947B123780EA700A16D0B /* Extensions.swift in Sources */,
 				03F99E5B237339AF0018E37B /* AppDelegate.swift in Sources */,
+				03ACB9BA2386EFCD0000497E /* VendorSocialMediaDetailsViewController.swift in Sources */,
 				038A217423865660003FBE76 /* PagingControl.swift in Sources */,
 				0399474E2377F37900A16D0B /* LoginViewController.swift in Sources */,
+				03ACB9B82386EF770000497E /* VendorContactDetailsViewController.swift in Sources */,
 				039947482377EA5500A16D0B /* AppConstants.swift in Sources */,
 				039947BB237817D300A16D0B /* NavigatorController.swift in Sources */,
 				039947BD237839B900A16D0B /* OTPViewController.swift in Sources */,
@@ -476,6 +487,7 @@
 				039947B7237812E100A16D0B /* ViewNavigator.swift in Sources */,
 				038A217623866504003FBE76 /* VendorDetailsViewController.swift in Sources */,
 				039947C1237883A000A16D0B /* ForgotPasswordViewController.swift in Sources */,
+				03ACB9B62386EF580000497E /* VendorShopDetailsViewController.swift in Sources */,
 				039947BF23787BE300A16D0B /* SuperViewController.swift in Sources */,
 				039947B3237811AB00A16D0B /* LoginViewModel.swift in Sources */,
 			);

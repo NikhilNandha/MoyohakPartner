@@ -112,7 +112,7 @@ class OTPViewController: SuperViewController, UITextFieldDelegate {
     // MARK: - Button Tapped Event -
 
     @IBAction func proceedButtonTapped() {
-        
+        RegistrationViewModel.showVendorRegistrationScreen(navigationType: .Push, parentViewController: self)
     }
 
     @IBAction func resendButtonTapped() {
