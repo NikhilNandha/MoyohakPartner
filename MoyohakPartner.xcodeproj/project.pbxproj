@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		038A217423865660003FBE76 /* PagingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A217323865660003FBE76 /* PagingControl.swift */; };
+		038A217623866504003FBE76 /* VendorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A217523866504003FBE76 /* VendorDetailsViewController.swift */; };
 		0394AE372375F48400E484E1 /* MULI-BLACK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 0394AE2C2375F46F00E484E1 /* MULI-BLACK.TTF */; };
 		0394AE382375F48A00E484E1 /* MULI-BLACKITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 0394AE2B2375F46F00E484E1 /* MULI-BLACKITALIC.TTF */; };
 		0394AE392375F48A00E484E1 /* MULI-BOLD.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 0394AE292375F46F00E484E1 /* MULI-BOLD.TTF */; };
@@ -59,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		038A217323865660003FBE76 /* PagingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingControl.swift; sourceTree = "<group>"; };
+		038A217523866504003FBE76 /* VendorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorDetailsViewController.swift; sourceTree = "<group>"; };
 		0394AE292375F46F00E484E1 /* MULI-BOLD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MULI-BOLD.TTF"; sourceTree = "<group>"; };
 		0394AE2A2375F46F00E484E1 /* MULI-SEMIBOLDITALIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MULI-SEMIBOLDITALIC.TTF"; sourceTree = "<group>"; };
 		0394AE2B2375F46F00E484E1 /* MULI-BLACKITALIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MULI-BLACKITALIC.TTF"; sourceTree = "<group>"; };
@@ -215,6 +219,7 @@
 				039947B6237812E100A16D0B /* ViewNavigator.swift */,
 				039947BA237817D300A16D0B /* NavigatorController.swift */,
 				039947BE23787BE300A16D0B /* SuperViewController.swift */,
+				038A217323865660003FBE76 /* PagingControl.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			children = (
 				039947AE23780C4100A16D0B /* RegistrationViewController.swift */,
 				039947BC237839B900A16D0B /* OTPViewController.swift */,
+				038A217523866504003FBE76 /* VendorDetailsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -460,6 +466,7 @@
 				039947462377E9D800A16D0B /* CustomTextfield.swift in Sources */,
 				039947B123780EA700A16D0B /* Extensions.swift in Sources */,
 				03F99E5B237339AF0018E37B /* AppDelegate.swift in Sources */,
+				038A217423865660003FBE76 /* PagingControl.swift in Sources */,
 				0399474E2377F37900A16D0B /* LoginViewController.swift in Sources */,
 				039947482377EA5500A16D0B /* AppConstants.swift in Sources */,
 				039947BB237817D300A16D0B /* NavigatorController.swift in Sources */,
@@ -467,6 +474,7 @@
 				039947B5237811D200A16D0B /* RegistrationViewModel.swift in Sources */,
 				039947AF23780C4100A16D0B /* RegistrationViewController.swift in Sources */,
 				039947B7237812E100A16D0B /* ViewNavigator.swift in Sources */,
+				038A217623866504003FBE76 /* VendorDetailsViewController.swift in Sources */,
 				039947C1237883A000A16D0B /* ForgotPasswordViewController.swift in Sources */,
 				039947BF23787BE300A16D0B /* SuperViewController.swift in Sources */,
 				039947B3237811AB00A16D0B /* LoginViewModel.swift in Sources */,
