@@ -17,15 +17,15 @@ struct NavigatorController {
     
     //MARK: - Login  & Registration -
     
-    let Login : LoginViewController = Storyboard().main.instantiateViewController(identifier: "LoginViewController")
-    let LoginNC : UINavigationController = Storyboard().main.instantiateViewController(identifier: "LoginViewController_NC")
+    let Login = Storyboard().main.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+    let LoginNC = Storyboard().main.instantiateViewController(withIdentifier: "LoginViewController_NC") as! UINavigationController
     
-    let Registration : RegistrationViewController = Storyboard().main.instantiateViewController(identifier: "RegistrationViewController")
-    let RegistrationNC : UINavigationController = Storyboard().main.instantiateViewController(identifier: "RegistrationViewController_NC")
+    let Registration = Storyboard().main.instantiateViewController(withIdentifier: "RegistrationViewController") as! RegistrationViewController
+    let RegistrationNC = Storyboard().main.instantiateViewController(withIdentifier: "RegistrationViewController_NC") as! UINavigationController
     
-    let OTP : OTPViewController = Storyboard().main.instantiateViewController(identifier: "OTPViewController")
-    let OTPNC : UINavigationController = Storyboard().main.instantiateViewController(identifier: "OTPViewController_NC")
+    let OTP = Storyboard().main.instantiateViewController(withIdentifier: "OTPViewController") as! OTPViewController
+    let OTPNC = Storyboard().main.instantiateViewController(withIdentifier: "OTPViewController_NC") as! UINavigationController
     
-    let ForgotPassword : ForgotPasswordViewController = Storyboard().main.instantiateViewController(identifier: "ForgotPasswordViewController")
-    let ForgotPasswordNC : UINavigationController = Storyboard().main.instantiateViewController(identifier: "ForgotPasswordViewController_NC")
+    let ForgotPassword = Storyboard().main.instantiateViewController(withIdentifier: "ForgotPasswordViewController") as! ForgotPasswordViewController
+    let ForgotPasswordNC = Storyboard().main.instantiateViewController(withIdentifier: "ForgotPasswordViewController_NC") as! UINavigationController
 }
