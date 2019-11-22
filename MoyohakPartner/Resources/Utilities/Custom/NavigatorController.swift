@@ -36,4 +36,7 @@ struct NavigatorController {
     let VendorShopDetails = Storyboard().main.instantiateViewController(withIdentifier: "VendorShopDetailsViewController") as! VendorShopDetailsViewController
     let VendorContactDetails = Storyboard().main.instantiateViewController(withIdentifier: "VendorContactDetailsViewController") as! VendorContactDetailsViewController
     let VendorSocialMediaDetails = Storyboard().main.instantiateViewController(withIdentifier: "VendorSocialMediaDetailsViewController") as! VendorSocialMediaDetailsViewController
+    let VendorCompanyInfo = Storyboard().main.instantiateViewController(withIdentifier: "VendorCompanyInfoViewController") as! VendorCompanyInfoViewController
+    let VendorPaymentDetails = Storyboard().main.instantiateViewController(withIdentifier: "VendorPaymentDetailsViewController") as! VendorPaymentDetailsViewController
+    
 }

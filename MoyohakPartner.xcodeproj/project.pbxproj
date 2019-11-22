@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0349CEE52387E28B0019860A /* VendorCompanyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349CEE42387E28B0019860A /* VendorCompanyInfoViewController.swift */; };
+		0349CEE72387E2B70019860A /* VendorPaymentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349CEE62387E2B70019860A /* VendorPaymentDetailsViewController.swift */; };
 		038A217423865660003FBE76 /* PagingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A217323865660003FBE76 /* PagingControl.swift */; };
 		038A217623866504003FBE76 /* VendorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A217523866504003FBE76 /* VendorDetailsViewController.swift */; };
 		0394AE372375F48400E484E1 /* MULI-BLACK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 0394AE2C2375F46F00E484E1 /* MULI-BLACK.TTF */; };
@@ -64,6 +66,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0349CEE42387E28B0019860A /* VendorCompanyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorCompanyInfoViewController.swift; sourceTree = "<group>"; };
+		0349CEE62387E2B70019860A /* VendorPaymentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorPaymentDetailsViewController.swift; sourceTree = "<group>"; };
 		038A217323865660003FBE76 /* PagingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingControl.swift; sourceTree = "<group>"; };
 		038A217523866504003FBE76 /* VendorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorDetailsViewController.swift; sourceTree = "<group>"; };
 		0394AE292375F46F00E484E1 /* MULI-BOLD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MULI-BOLD.TTF"; sourceTree = "<group>"; };
@@ -271,6 +275,8 @@
 				03ACB9B52386EF580000497E /* VendorShopDetailsViewController.swift */,
 				03ACB9B72386EF770000497E /* VendorContactDetailsViewController.swift */,
 				03ACB9B92386EFCD0000497E /* VendorSocialMediaDetailsViewController.swift */,
+				0349CEE42387E28B0019860A /* VendorCompanyInfoViewController.swift */,
+				0349CEE62387E2B70019860A /* VendorPaymentDetailsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -484,6 +490,8 @@
 				039947BD237839B900A16D0B /* OTPViewController.swift in Sources */,
 				039947B5237811D200A16D0B /* RegistrationViewModel.swift in Sources */,
 				039947AF23780C4100A16D0B /* RegistrationViewController.swift in Sources */,
+				0349CEE72387E2B70019860A /* VendorPaymentDetailsViewController.swift in Sources */,
+				0349CEE52387E28B0019860A /* VendorCompanyInfoViewController.swift in Sources */,
 				039947B7237812E100A16D0B /* ViewNavigator.swift in Sources */,
 				038A217623866504003FBE76 /* VendorDetailsViewController.swift in Sources */,
 				039947C1237883A000A16D0B /* ForgotPasswordViewController.swift in Sources */,
