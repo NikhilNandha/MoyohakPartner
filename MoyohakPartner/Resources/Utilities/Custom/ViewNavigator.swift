@@ -22,7 +22,7 @@ class ViewNavigator {
     private var parentViewControllers = [UIViewController]()
     
     var parentViewController: UIViewController {
-        get { parentViewControllers[0] }
+        get { parentViewControllers[parentViewControllers.count-1] }
     }
     
     private(set) var navigationType: NavigationType?
