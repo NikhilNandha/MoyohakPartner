@@ -14,13 +14,16 @@ enum NavigationType {
     case Present
 }
 
-class ViewNavigator {
+class ViewNavigator: NSObject/*, UINavigationBarDelegate*/ {
     
     static let shared = ViewNavigator()
     
     private(set) var currentViewController: UIViewController?
     private var parentViewControllers = [UIViewController]()
     
+    /*
+     Returns parent view controller
+     */
     var parentViewController: UIViewController {
         get { parentViewControllers[parentViewControllers.count-1] }
     }
@@ -35,6 +38,7 @@ class ViewNavigator {
         case .Push:
             guard let _ = parentViewController.navigationController else { return }
             
+//            parentViewController.navigationController?.navigationBar.delegate = self
             setViewControllers(current: viewController, parent: parentViewController, navType: navigationType)
             parentViewController.navigationController?.pushViewController(viewController, animated: true)
             
@@ -48,9 +52,12 @@ class ViewNavigator {
         }
     }
     
+    /*
+     Use this method to Pop or Dismiss
+     */
     func navigateBack() {
         
-        self.updateStoredPropertiesAfterDismiss()
+//        self.updateStoredPropertiesAfterDismiss()
         
         switch navigationType {
         case .Push:
@@ -63,17 +70,26 @@ class ViewNavigator {
         }
     }
     
+//    func navigationBar(_ navigationBar: UINavigationBar, didPop item: UINavigationItem) {
+//       navigateBack()
+//    }
     
-    //MARK: - Stored properties methods -
+    //MARK: - Public Setters -
     
-    
-    private func setViewControllers(current: UIViewController, parent: UIViewController, navType: NavigationType) {
-        currentViewController = current
-        parentViewControllers.append(parent)
-        navigationType = navType
+    /*
+     Use this setter to set current and parent view controller while setting App Root ViewController
+     */
+    func setInitialCurrentViewController(controller: UIViewController) {
+        currentViewController = controller
+        parentViewControllers = [UIViewController]()
     }
     
-    private func updateStoredPropertiesAfterDismiss() {
+    /*
+     Call this methods to update current and parent view controller after Dismiss or Pop
+     in viewWillDisappear by checking this flags
+     isMovingFromParent or isBeingDismissed or navigationController?.isBeingDismissed
+     */
+    func updateStoredPropertiesAfterDismiss() {
         
         if (currentViewController != nil) && (parentViewControllers.count > 0) {
             
@@ -85,4 +101,15 @@ class ViewNavigator {
         }
         
     }
+    
+    //MARK: - Stored properties methods -
+    
+    
+    private func setViewControllers(current: UIViewController, parent: UIViewController, navType: NavigationType) {
+        currentViewController = current
+        parentViewControllers.append(parent)
+        navigationType = navType
+    }
+    
+    
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VendorCompanyInfoViewController: UIViewController {
+class VendorCompanyInfoViewController: SuperViewController {
 
     @IBOutlet var segement: UISegmentedControl!
     

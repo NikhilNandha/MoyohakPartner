@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034388D323A8AE0500554426 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034388D023A8AE0400554426 /* HomeTabBarController.swift */; };
+		034388D423A8AE0500554426 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034388D123A8AE0500554426 /* TabBar.swift */; };
+		034388D523A8AE0500554426 /* AppRootContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034388D223A8AE0500554426 /* AppRootContainer.swift */; };
+		034388EB23A8AFC000554426 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034388EA23A8AFC000554426 /* Dashboard.storyboard */; };
+		034388ED23A8AFCF00554426 /* Master.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034388EC23A8AFCF00554426 /* Master.storyboard */; };
+		034388EF23A8AFDB00554426 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034388EE23A8AFDB00554426 /* Profile.storyboard */; };
+		034388F123A8AFE600554426 /* Upload.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034388F023A8AFE600554426 /* Upload.storyboard */; };
+		034388F323A8AFF000554426 /* Orders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034388F223A8AFF000554426 /* Orders.storyboard */; };
+		034388F523A8B00500554426 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034388F423A8B00500554426 /* OrdersViewController.swift */; };
+		034388F723A8B01700554426 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034388F623A8B01700554426 /* UploadViewController.swift */; };
+		034388F923A8B02000554426 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034388F823A8B02000554426 /* ProfileViewController.swift */; };
+		034388FB23A8B02C00554426 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034388FA23A8B02C00554426 /* MasterViewController.swift */; };
+		034388FD23A8B03900554426 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034388FC23A8B03900554426 /* DashboardViewController.swift */; };
+		034388FF23A8B04B00554426 /* OrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034388FE23A8B04B00554426 /* OrdersViewModel.swift */; };
+		0343890123A8B05C00554426 /* UploadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343890023A8B05C00554426 /* UploadViewModel.swift */; };
+		0343890323A8B06800554426 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343890223A8B06800554426 /* ProfileViewModel.swift */; };
+		0343890523A8B07500554426 /* MasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343890423A8B07500554426 /* MasterViewModel.swift */; };
+		0343890723A8B08500554426 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343890623A8B08500554426 /* DashboardViewModel.swift */; };
 		0349CEE52387E28B0019860A /* VendorCompanyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349CEE42387E28B0019860A /* VendorCompanyInfoViewController.swift */; };
 		0349CEE72387E2B70019860A /* VendorPaymentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349CEE62387E2B70019860A /* VendorPaymentDetailsViewController.swift */; };
 		038A217423865660003FBE76 /* PagingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A217323865660003FBE76 /* PagingControl.swift */; };
@@ -66,6 +84,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034388D023A8AE0400554426 /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		034388D123A8AE0500554426 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		034388D223A8AE0500554426 /* AppRootContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRootContainer.swift; sourceTree = "<group>"; };
+		034388EA23A8AFC000554426 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		034388EC23A8AFCF00554426 /* Master.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Master.storyboard; sourceTree = "<group>"; };
+		034388EE23A8AFDB00554426 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		034388F023A8AFE600554426 /* Upload.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Upload.storyboard; sourceTree = "<group>"; };
+		034388F223A8AFF000554426 /* Orders.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Orders.storyboard; sourceTree = "<group>"; };
+		034388F423A8B00500554426 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		034388F623A8B01700554426 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		034388F823A8B02000554426 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		034388FA23A8B02C00554426 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		034388FC23A8B03900554426 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		034388FE23A8B04B00554426 /* OrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewModel.swift; sourceTree = "<group>"; };
+		0343890023A8B05C00554426 /* UploadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewModel.swift; sourceTree = "<group>"; };
+		0343890223A8B06800554426 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		0343890423A8B07500554426 /* MasterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewModel.swift; sourceTree = "<group>"; };
+		0343890623A8B08500554426 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		0349CEE42387E28B0019860A /* VendorCompanyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorCompanyInfoViewController.swift; sourceTree = "<group>"; };
 		0349CEE62387E2B70019860A /* VendorPaymentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorPaymentDetailsViewController.swift; sourceTree = "<group>"; };
 		038A217323865660003FBE76 /* PagingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingControl.swift; sourceTree = "<group>"; };
@@ -138,9 +174,184 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		034388D623A8AEB900554426 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				034388DB23A8AEF500554426 /* ViewModel */,
+				034388DD23A8AF0400554426 /* ViewController */,
+				034388DC23A8AEFC00554426 /* View */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		034388D723A8AED200554426 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				034388DE23A8AF1400554426 /* ViewModel */,
+				034388E023A8AF1A00554426 /* ViewController */,
+				034388DF23A8AF1700554426 /* View */,
+			);
+			path = Master;
+			sourceTree = "<group>";
+		};
+		034388D823A8AED800554426 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				034388E323A8AF6600554426 /* ViewModel */,
+				034388E223A8AF6400554426 /* ViewController */,
+				034388E123A8AF6100554426 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		034388D923A8AEE500554426 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				034388E423A8AF7D00554426 /* ViewModel */,
+				034388E623A8AF8800554426 /* ViewController */,
+				034388E523A8AF8300554426 /* View */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
+		034388DA23A8AEEC00554426 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				034388E923A8AF9D00554426 /* ViewModel */,
+				034388E823A8AF9A00554426 /* ViewController */,
+				034388E723A8AF9700554426 /* View */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		034388DB23A8AEF500554426 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0343890623A8B08500554426 /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		034388DC23A8AEFC00554426 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				034388EA23A8AFC000554426 /* Dashboard.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		034388DD23A8AF0400554426 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				034388FC23A8B03900554426 /* DashboardViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		034388DE23A8AF1400554426 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0343890423A8B07500554426 /* MasterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		034388DF23A8AF1700554426 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				034388EC23A8AFCF00554426 /* Master.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		034388E023A8AF1A00554426 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				034388FA23A8B02C00554426 /* MasterViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		034388E123A8AF6100554426 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				034388EE23A8AFDB00554426 /* Profile.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		034388E223A8AF6400554426 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				034388F823A8B02000554426 /* ProfileViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		034388E323A8AF6600554426 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0343890223A8B06800554426 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		034388E423A8AF7D00554426 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0343890023A8B05C00554426 /* UploadViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		034388E523A8AF8300554426 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				034388F023A8AFE600554426 /* Upload.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		034388E623A8AF8800554426 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				034388F623A8B01700554426 /* UploadViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		034388E723A8AF9700554426 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				034388F223A8AFF000554426 /* Orders.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		034388E823A8AF9A00554426 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				034388F423A8B00500554426 /* OrdersViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		034388E923A8AF9D00554426 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				034388FE23A8B04B00554426 /* OrdersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		0394AE252375F31D00E484E1 /* Section */ = {
 			isa = PBXGroup;
 			children = (
+				034388DA23A8AEEC00554426 /* Orders */,
+				034388D923A8AEE500554426 /* Upload */,
+				034388D823A8AED800554426 /* Profile */,
+				034388D723A8AED200554426 /* Master */,
+				034388D623A8AEB900554426 /* Dashboard */,
 				0394AE262375F33800E484E1 /* Login */,
 				039947AA23780BFF00A16D0B /* Register */,
 			);
@@ -227,7 +438,6 @@
 				039947472377EA5500A16D0B /* AppConstants.swift */,
 				039947B023780EA700A16D0B /* Extensions.swift */,
 				039947B6237812E100A16D0B /* ViewNavigator.swift */,
-				039947BA237817D300A16D0B /* NavigatorController.swift */,
 				039947BE23787BE300A16D0B /* SuperViewController.swift */,
 				038A217323865660003FBE76 /* PagingControl.swift */,
 			);
@@ -305,6 +515,10 @@
 			isa = PBXGroup;
 			children = (
 				03F99E5A237339AF0018E37B /* AppDelegate.swift */,
+				039947BA237817D300A16D0B /* NavigatorController.swift */,
+				034388D223A8AE0500554426 /* AppRootContainer.swift */,
+				034388D023A8AE0400554426 /* HomeTabBarController.swift */,
+				034388D123A8AE0500554426 /* TabBar.swift */,
 				0394AE252375F31D00E484E1 /* Section */,
 				0394AE272375F41D00E484E1 /* Resources */,
 				03F99E60237339AF0018E37B /* Main.storyboard */,
@@ -439,15 +653,20 @@
 			files = (
 				0394AE432375F48A00E484E1 /* MULI-SEMIBOLD.TTF in Resources */,
 				0394AE412375F48A00E484E1 /* MULI-REGULAR.TTF in Resources */,
+				034388EF23A8AFDB00554426 /* Profile.storyboard in Resources */,
 				0394AE392375F48A00E484E1 /* MULI-BOLD.TTF in Resources */,
+				034388F123A8AFE600554426 /* Upload.storyboard in Resources */,
+				034388F323A8AFF000554426 /* Orders.storyboard in Resources */,
 				0394AE382375F48A00E484E1 /* MULI-BLACKITALIC.TTF in Resources */,
 				0394AE3F2375F48A00E484E1 /* MULI-LIGHT.TTF in Resources */,
 				03F99E67237339B00018E37B /* LaunchScreen.storyboard in Resources */,
 				0394AE3D2375F48A00E484E1 /* MULI-EXTRALIGHT.TTF in Resources */,
+				034388EB23A8AFC000554426 /* Dashboard.storyboard in Resources */,
 				03F99E64237339B00018E37B /* Assets.xcassets in Resources */,
 				0394AE3C2375F48A00E484E1 /* MULI-EXTRABOLDITALIC.TTF in Resources */,
 				03F99E62237339AF0018E37B /* Main.storyboard in Resources */,
 				0394AE442375F48A00E484E1 /* MULI-SEMIBOLDITALIC.TTF in Resources */,
+				034388ED23A8AFCF00554426 /* Master.storyboard in Resources */,
 				0394AE3A2375F48A00E484E1 /* MULI-BOLDITALIC.TTF in Resources */,
 				0394AE422375F48A00E484E1 /* MULI-REGULARITALIC.TTF in Resources */,
 				0394AE372375F48400E484E1 /* MULI-BLACK.TTF in Resources */,
@@ -480,24 +699,37 @@
 			files = (
 				039947462377E9D800A16D0B /* CustomTextfield.swift in Sources */,
 				039947B123780EA700A16D0B /* Extensions.swift in Sources */,
+				034388D323A8AE0500554426 /* HomeTabBarController.swift in Sources */,
 				03F99E5B237339AF0018E37B /* AppDelegate.swift in Sources */,
 				03ACB9BA2386EFCD0000497E /* VendorSocialMediaDetailsViewController.swift in Sources */,
 				038A217423865660003FBE76 /* PagingControl.swift in Sources */,
 				0399474E2377F37900A16D0B /* LoginViewController.swift in Sources */,
 				03ACB9B82386EF770000497E /* VendorContactDetailsViewController.swift in Sources */,
+				0343890523A8B07500554426 /* MasterViewModel.swift in Sources */,
 				039947482377EA5500A16D0B /* AppConstants.swift in Sources */,
 				039947BB237817D300A16D0B /* NavigatorController.swift in Sources */,
+				034388F923A8B02000554426 /* ProfileViewController.swift in Sources */,
 				039947BD237839B900A16D0B /* OTPViewController.swift in Sources */,
+				0343890323A8B06800554426 /* ProfileViewModel.swift in Sources */,
+				034388F723A8B01700554426 /* UploadViewController.swift in Sources */,
+				0343890723A8B08500554426 /* DashboardViewModel.swift in Sources */,
+				0343890123A8B05C00554426 /* UploadViewModel.swift in Sources */,
 				039947B5237811D200A16D0B /* RegistrationViewModel.swift in Sources */,
 				039947AF23780C4100A16D0B /* RegistrationViewController.swift in Sources */,
+				034388FD23A8B03900554426 /* DashboardViewController.swift in Sources */,
 				0349CEE72387E2B70019860A /* VendorPaymentDetailsViewController.swift in Sources */,
 				0349CEE52387E28B0019860A /* VendorCompanyInfoViewController.swift in Sources */,
 				039947B7237812E100A16D0B /* ViewNavigator.swift in Sources */,
 				038A217623866504003FBE76 /* VendorDetailsViewController.swift in Sources */,
+				034388FF23A8B04B00554426 /* OrdersViewModel.swift in Sources */,
 				039947C1237883A000A16D0B /* ForgotPasswordViewController.swift in Sources */,
 				03ACB9B62386EF580000497E /* VendorShopDetailsViewController.swift in Sources */,
+				034388F523A8B00500554426 /* OrdersViewController.swift in Sources */,
+				034388D423A8AE0500554426 /* TabBar.swift in Sources */,
+				034388FB23A8B02C00554426 /* MasterViewController.swift in Sources */,
 				039947BF23787BE300A16D0B /* SuperViewController.swift in Sources */,
 				039947B3237811AB00A16D0B /* LoginViewModel.swift in Sources */,
+				034388D523A8AE0500554426 /* AppRootContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,7 +26,7 @@ class LoginViewController: SuperViewController {
     }
     
     @IBAction func loginButtonTapped(sender: UIButton) {
-        
+        AppRootContainer.setTabBar(window: AppConstants.appDelegate.window)
     }
     
     @IBAction func forgotPasswordButtonTapped(sender: UIButton) {
